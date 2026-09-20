@@ -24,7 +24,7 @@ arguments = {
     "-p=": ["Scan define port", "scanp"],
     "-p=all": ["Scan all ports (1-65535)", "scanp"],
     "--script=": ["Use script", "scanp"],
-    "--plugin": ["Use plugin", "scanp", "showtar"],
+    "--plugin=": ["Use plugin", "scanp", "showtar"],
     "-sV": ["Scan service and version", "scanp"],
     "--version": ["Show A2PS version"],
     "-h": ["Print the usage documentation", "scanp", "showtar"],
