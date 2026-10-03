@@ -133,7 +133,7 @@ def recon_scan(targetIP):
     else:
         print(colored("[-] MAC: unavailable", "red"))
         print(colored("[-] Vendor: unavailable", "red"))
-    print(colored(f"[+] Host name: {hostname}", "cyan"))  # правильно
+    print(colored(f"[+] Host name: {hostname}", "cyan"))
     if ttl:
         if ttl <= 64:
             os = "Linux/UNIX"
